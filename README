@@ -1,4 +1,9 @@
 安装 snipMate
-git clone git://github.com/msanders/snipmate.vim.git
-cd snipmate.vim
-cp -R * ~/.vim
+$ git clone git://github.com/msanders/snipmate.vim.git
+$ cd snipmate.vim
+$ cp -R * ~/.vim
+
+安装 zencoding http://mattn.github.com/zencoding-vim/
+$ git clone http://github.com/mattn/zencoding-vim.git
+$ cp zencoding-vim/plugin/zencoding.vim ~/.vim/plugin/
+$ cp zencoding-vim/autoload/zencoding.vim ~/.vim/autoload/
