@@ -1,19 +1,25 @@
-# 我的开发环境和配置文件
+我的开发环境和配置文件
+=====================
 
-## vim
+vim
+===
 
-ln -s `pwd`/vimrc $HOME/.vimrc
+    ln -s `pwd`/vimrc $HOME/.vimrc
 
 安装 snipMate
-$ git clone git://github.com/msanders/snipmate.vim.git
-$ cd snipmate.vim
-$ cp -R * ~/.vim
+
+    $ git clone git://github.com/msanders/snipmate.vim.git
+    $ cd snipmate.vim
+    $ cp -R * ~/.vim
 
 安装 zencoding http://mattn.github.com/zencoding-vim/
-$ git clone http://github.com/mattn/zencoding-vim.git
-$ cp zencoding-vim/plugin/zencoding.vim ~/.vim/plugin/
-$ cp zencoding-vim/autoload/zencoding.vim ~/.vim/autoload/
 
-## git
+    $ git clone http://github.com/mattn/zencoding-vim.git
+    $ cp zencoding-vim/plugin/zencoding.vim ~/.vim/plugin/
+    $ cp zencoding-vim/autoload/zencoding.vim ~/.vim/autoload/
 
-ln -s `pwd`/gitconfig $HOME/.gitconfig
+git
+===
+
+    ln -s `pwd`/gitconfig $HOME/.gitconfig
+
