@@ -27,9 +27,9 @@ set history=100
 
 "Enable filetype plugin
 filetype plugin on
-"缩进
+"缩进  不要自动缩进，粘贴代码会乱掉
 filetype indent on
-" Auto indent
+" Auto indent 
 set ai
 " Smart indent
 set si
