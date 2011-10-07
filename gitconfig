@@ -1,0 +1,18 @@
+[user]
+	name = jondynet
+	email = jondynet@gmail.com
+[color]
+    ui = auto
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    sh = show --name-status
+    l = log --name-status
+    lg = log --name-status --graph
+    l1 = log --pretty=oneline
+#[branch]
+#    autosetuprebase = always
+#[push]
+#    default = tracking
