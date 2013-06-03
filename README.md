@@ -11,6 +11,7 @@ vim
     $ git clone git://github.com/msanders/snipmate.vim.git
     $ cd snipmate.vim
     $ cp -R * ~/.vim
+    $ ls -s `pwd`/mysnipmate/djangotemplate.snippets ~/.vim/snipmate/djangotemplate.snippets
 
 安装 zencoding http://mattn.github.com/zencoding-vim/
 
@@ -23,3 +24,7 @@ git
 
     ln -s `pwd`/gitconfig $HOME/.gitconfig
 
+bash profile
+============
+
+    ln -s `pwd`/bash_profile $HOME/.bash_profile
