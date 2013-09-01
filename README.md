@@ -4,20 +4,10 @@
 vim
 ===
 
-    ln -s `pwd`/vimrc $HOME/.vimrc
+修改vim配置使用git submodule和pathogen
 
-安装 snipMate
-
-    $ git clone git://github.com/msanders/snipmate.vim.git
-    $ cd snipmate.vim
-    $ cp -R * ~/.vim
-    $ ls -s `pwd`/mysnipmate/djangotemplate.snippets ~/.vim/snipmate/djangotemplate.snippets
-
-安装 zencoding http://mattn.github.com/zencoding-vim/
-
-    $ git clone http://github.com/mattn/zencoding-vim.git
-    $ cp zencoding-vim/plugin/zencoding.vim ~/.vim/plugin/
-    $ cp zencoding-vim/autoload/zencoding.vim ~/.vim/autoload/
+    ln -s `pwd`/vim $HOME/.vim
+    ln -s `pwd`/newvimrc $HOME/.vimrc
 
 git
 ===
