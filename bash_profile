@@ -7,10 +7,16 @@ export LC_CTYPE=en_US.UTF-8
 
 export PS1="\[\e[32;1m\]\W\\$ \[\e[0m\]"
 
+export PATH=/usr/local/sbin:/usr/local//share/python/:$PATH
+#This makes sure homebrew stuff is used
+export PATH=/usr/local/bin:$PATH
+#Point OSX to Cellar python 
 export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-export PATH=/usr/local/sbin:$PATH
 
 alias rm='rm -iv'
 alias cp='cp -iv'
 alias mv='mv -iv'
 
+alias commsen='ssh root@commsen.cn'
+alias zhack='ssh root@zhack.com'
+alias hulivod='ssh root@69.85.87.144'

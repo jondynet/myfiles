@@ -16,3 +16,5 @@
 #    autosetuprebase = always
 #[push]
 #    default = tracking
+[push]
+	default = matching
