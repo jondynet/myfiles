@@ -18,3 +18,5 @@
 #    default = tracking
 [push]
 	default = matching
+[core]
+	autocrlf = false
