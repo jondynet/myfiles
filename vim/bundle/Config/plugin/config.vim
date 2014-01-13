@@ -58,3 +58,15 @@ if v:version >= 703
   set undofile
 endif
 
+" 最后更新时间 Last modified: <datetime>
+autocmd BufWritePre,FileWritePre *.py   ks|call LastMod()|'s
+fun LastMod()
+    if line("$") > 10
+        let l = 10
+    else
+        let l = line("$")
+    endif
+    exe "1," . l . "g/Last modified: /s/Last modified: .*/Last modified: " .
+        \ strftime("%Y-%m-%d %H:%I:%S")
+endfun
+
