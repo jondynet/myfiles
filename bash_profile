@@ -19,4 +19,4 @@ alias mv='mv -iv'
 
 alias commsen='ssh root@commsen.cn'
 alias zhack='ssh root@zhack.com'
-alias hulivod='ssh root@69.85.87.144'
+alias mindtreepharmatech='ssh root@69.85.87.144'
