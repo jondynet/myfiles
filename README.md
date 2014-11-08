@@ -18,3 +18,11 @@ bash profile
 ============
 
     ln -s `pwd`/bash_profile $HOME/.bash_profile
+
+mod_wsgi
+========
+
+osx10.9: apache2.2.27 mod_wsgi3.4
+
+    config:
+    LoadModule wsgi_module /Users/zhangdi/Sites/lib/myfiles/mod_wsgi.so

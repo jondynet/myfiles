@@ -7,7 +7,7 @@ export LC_CTYPE=en_US.UTF-8
 
 export PS1="\[\e[32;1m\]\W\\$ \[\e[0m\]"
 
-export PATH=/usr/local/sbin:/usr/local//share/python/:$PATH
+export PATH=/usr/local/sbin:$PATH
 #This makes sure homebrew stuff is used
 export PATH=/usr/local/bin:$PATH
 #Point OSX to Cellar python 
