@@ -26,3 +26,7 @@ alias mv='mv -iv'
 alias commsen='ssh root@commsen.cn'
 alias zhack='ssh root@zhack.com'
 alias mindtreepharmatech='ssh root@69.85.87.144'
+alias wanda='ssh admin@222.34.130.109'
+alias doublecom='ssh root@120.26.57.92'
+alias freebsd='ssh zhangdi@222.34.174.131'
+

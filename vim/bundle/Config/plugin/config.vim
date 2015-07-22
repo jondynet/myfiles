@@ -70,3 +70,5 @@ fun LastMod()
         \ strftime("%Y-%m-%d %H:%I:%S")
 endfun
 
+" 启动代码折叠
+set fdm=indent
