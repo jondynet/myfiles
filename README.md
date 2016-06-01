@@ -4,6 +4,8 @@
 vim
 ===
 
+    git clone https://github.com/jondynet/myfiles.git
+
 vim带有submodule, 当使用git clone下来的工程中带有submodule时，初始的时候，submodule的内容并不会自动下载下来的，此时，只需执行如下命令：
 
     git submodule update --init --recursive
