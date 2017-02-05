@@ -1,2 +1,15 @@
-snippet more
-	<!-- more -->
+snippet -
+	Title: ${1:title}
+	Date: `strftime("%Y-%m-%d %H:%I")`
+	Modified: `strftime("%Y-%m-%d %H:%I")`
+	Category: ${2:Python}
+	Tags: ${3:tags}
+	Slug: `Filename("$1")`
+	Authors: zhangdi
+	Summary: ${4:summary}
+
+snippet link
+	[${1:name}](${2:url})
+
+snippet img
+	![${1:name}](${2:url})

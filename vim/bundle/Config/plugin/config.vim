@@ -17,16 +17,21 @@ set fileencodings=ucs-bom,utf-8,gbk
 set fileformats=unix,dos,mac
 
 " 缩进设置
-set smarttab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+" set smarttab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
 set expandtab
+" 自动缩进
+set autoindent
+set smartindent
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
 
 " 高亮括号对
 set showmatch
-" 自动缩进
-set autoindent
 " 高亮搜索
 set hlsearch
 " 状态栏显示键入的命令
@@ -67,6 +72,18 @@ fun LastMod()
         let l = line("$")
     endif
     exe "1," . l . "g/Last modified: /s/Last modified: .*/Last modified: " .
+        \ strftime("%Y-%m-%d %H:%I:%S")
+endfun
+
+" pelican 博客头部处理
+autocmd BufWritePre,FileWritePre *.md   ks|call Pelican()|'s
+fun Pelican()
+    if line("$") > 10
+        let l = 10
+    else
+        let l = line("$")
+    endif
+    exe "1," . l . "g/Modified: /s/Modified: .*/Modified: " .
         \ strftime("%Y-%m-%d %H:%I:%S")
 endfun
 
