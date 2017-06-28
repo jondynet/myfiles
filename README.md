@@ -13,6 +13,9 @@ vim带有submodule, 当使用git clone下来的工程中带有submodule时，初
 
 修改vim配置使用git submodule和pathogen
 
+    mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
     ln -s `pwd`/vim $HOME/.vim
     ln -s `pwd`/newvimrc $HOME/.vimrc
 
